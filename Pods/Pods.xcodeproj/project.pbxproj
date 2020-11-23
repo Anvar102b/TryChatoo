@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0440C52E72F4E70DD8CE0D41C352B7D9 /* Pods-TryChatoo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4437B7E979CC917D8E1BADAFEDF351 /* Pods-TryChatoo-dummy.m */; };
+		1CA633DB46E1623F216F2B30C779AB70 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687F5E0BEAA2E211D2F61438725479EB /* Utils.swift */; };
+		286BD820295679BB8721B37A03971FD3 /* InputPositionControlling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968E7E2C75DAA0523601B4635E3E1B16 /* InputPositionControlling.swift */; };
+		3DD2B57252BAE9393D0CF804BC34FB97 /* BaseChatViewController+CellPanGestureHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C288608C81FF07DA0B45EEBB4F221B2 /* BaseChatViewController+CellPanGestureHandler.swift */; };
+		4560F662E47E58D9F14909EDC68BEF96 /* ChatDataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B9912652E8FFBDB3916CAC1421E61A /* ChatDataSourceProtocol.swift */; };
+		4772085BB6C13A035DDBFFEE2E41D363 /* Pods-TryChatoo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9A143F6754C50587DF355EF9AD0BA4 /* Pods-TryChatoo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5498F2CC49363B62E55A02A248389CA2 /* SerialTaskQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6333B59B368D0AB28D41DB4DD40FE0CB /* SerialTaskQueue.swift */; };
+		60723E6A00910EE6EC957924AF536887 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		72A7863C25AB03EC4264DBAC5F0FC6B2 /* BaseChatViewController+Presenters.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACC35C635CBBF0EB49A88A821FC315E /* BaseChatViewController+Presenters.swift */; };
+		74D950EEE53FA9AA13367C1A1187631D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7C4EEEF686E5E839E4DEE2CEF25AC4F6 /* Chatto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB6CDF3D0F2B3256DFF4A67524629B1A /* Chatto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DD4E34130C33F57467129F813F81FA1 /* ChatItemCompanion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD9FE518A3F9E3A7071B08ECECBE2F3 /* ChatItemCompanion.swift */; };
+		8B6F837FDF77B33FAF6C039D6FC32891 /* BaseChatViewControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305ECD8E915E93D6CD44049CDC0C059 /* BaseChatViewControllerView.swift */; };
+		8E67F3BBCC89277203BBE92DA1E61A0B /* CellPanGestureHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29431FC6947A37095775276D911040D2 /* CellPanGestureHandler.swift */; };
+		9357CFE02A2CF6846684435184518303 /* ChatItemPresenterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC0F35C36435C384F59C11D55139C11 /* ChatItemPresenterFactory.swift */; };
+		9556760F8AFE2ED82B6761A358D8CFC8 /* Chatto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB1D61570AA02E98102C59AF57E43D4 /* Chatto-dummy.m */; };
+		9ABE8F76193EC4DABA79AA741FE641B9 /* ChatCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2590AF4C35467A7B1AF911E0254ABB /* ChatCollectionViewLayout.swift */; };
+		9D159A770782A06DDB246CB4B688D6F8 /* ChatLayoutConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF8370BEF5C6F54527234E1023B4F99 /* ChatLayoutConfiguration.swift */; };
+		A1617419EEC4CB92C2013853F15055B3 /* BaseChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450046E95D1144F0D4E19321F5276A7F /* BaseChatViewController.swift */; };
+		AD149BE808D0B1695434D2A36EE2AB87 /* BaseChatItemPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDF723FB20A38C161585B215ECD5659 /* BaseChatItemPresenter.swift */; };
+		B95ACECF52C73E62596B41F45975482C /* BaseChatViewController+Changes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA1AEE2723CB60CACE4A7BC088E98C5 /* BaseChatViewController+Changes.swift */; };
+		BD25AC761C97420DCC25FBBAB51781F0 /* ChatItemCompanionCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E939CE32DEAFD02496027CC0346C2B4 /* ChatItemCompanionCollection.swift */; };
+		BEF20F71F2D66F8C8FDCD032ED7CA1DD /* ChatItemProtocolDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85780F80CFAEF2A0D6BEC5E67AA21CD9 /* ChatItemProtocolDefinitions.swift */; };
+		C8C501C833DBD5CBF1F7998EDB9DE670 /* DummyChatItemPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62A03A611A4C9F5131816F26566D57 /* DummyChatItemPresenter.swift */; };
+		E07337DA357D0F235D0F09E2C08E2547 /* KeyboardTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F081D140D41FE56046C050394E53EEB /* KeyboardTracker.swift */; };
+		E22CF6DBB4D1CD4F368937D1D3495BEE /* CollectionChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012CEA1C2FB7809B4C0A806D41AA8644 /* CollectionChanges.swift */; };
+		E9F88121B350459AD409165F6B3E357B /* BaseChatViewController+Scrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C43839DBEA55ACA532BF4BD39464A86 /* BaseChatViewController+Scrolling.swift */; };
+		F15C040D3F5068322647619227371747 /* ReplyFeedbackGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF7D6404FDBED56AF0A98AAFA5D7B30 /* ReplyFeedbackGenerator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D0FBA9EBA70B2E3B41EE5FB31E49238 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2508BC3B908322C9E85E61AE743C9842;
+			remoteInfo = Chatto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012CEA1C2FB7809B4C0A806D41AA8644 /* CollectionChanges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionChanges.swift; path = Chatto/Source/ChatController/Collaborators/CollectionChanges.swift; sourceTree = "<group>"; };
+		05A733D997999C5EF314A2340EE5F16D /* Chatto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Chatto.release.xcconfig; sourceTree = "<group>"; };
+		0CB1D61570AA02E98102C59AF57E43D4 /* Chatto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Chatto-dummy.m"; sourceTree = "<group>"; };
+		1994B191821C94F750C2471F09143232 /* Chatto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Chatto.modulemap; sourceTree = "<group>"; };
+		1C288608C81FF07DA0B45EEBB4F221B2 /* BaseChatViewController+CellPanGestureHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BaseChatViewController+CellPanGestureHandler.swift"; path = "Chatto/Source/ChatController/BaseChatViewController+CellPanGestureHandler.swift"; sourceTree = "<group>"; };
+		1DF7D6404FDBED56AF0A98AAFA5D7B30 /* ReplyFeedbackGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplyFeedbackGenerator.swift; path = Chatto/Source/ChatController/Collaborators/ReplyFeedbackGenerator.swift; sourceTree = "<group>"; };
+		1F081D140D41FE56046C050394E53EEB /* KeyboardTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardTracker.swift; path = Chatto/Source/ChatController/Collaborators/KeyboardTracker.swift; sourceTree = "<group>"; };
+		29431FC6947A37095775276D911040D2 /* CellPanGestureHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellPanGestureHandler.swift; path = Chatto/Source/ChatController/Collaborators/CellPanGestureHandler.swift; sourceTree = "<group>"; };
+		2FA1AEE2723CB60CACE4A7BC088E98C5 /* BaseChatViewController+Changes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BaseChatViewController+Changes.swift"; path = "Chatto/Source/ChatController/BaseChatViewController+Changes.swift"; sourceTree = "<group>"; };
+		392343FEAFF1EAD36D2BCCC06C5415E0 /* Chatto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Chatto.debug.xcconfig; sourceTree = "<group>"; };
+		3A777B568CE201F0309DB7ADC5E6862F /* Chatto-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Chatto-Info.plist"; sourceTree = "<group>"; };
+		3CC0F35C36435C384F59C11D55139C11 /* ChatItemPresenterFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatItemPresenterFactory.swift; path = Chatto/Source/ChatController/Collaborators/ChatItemPresenterFactory.swift; sourceTree = "<group>"; };
+		4305ECD8E915E93D6CD44049CDC0C059 /* BaseChatViewControllerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseChatViewControllerView.swift; path = Chatto/Source/ChatController/Collaborators/BaseChatViewControllerView.swift; sourceTree = "<group>"; };
+		448AE6CB55F18194BAD146C4C983CE1C /* Pods_TryChatoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TryChatoo.framework; path = "Pods-TryChatoo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		450046E95D1144F0D4E19321F5276A7F /* BaseChatViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseChatViewController.swift; path = Chatto/Source/ChatController/BaseChatViewController.swift; sourceTree = "<group>"; };
+		6333B59B368D0AB28D41DB4DD40FE0CB /* SerialTaskQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SerialTaskQueue.swift; path = Chatto/Source/SerialTaskQueue.swift; sourceTree = "<group>"; };
+		687F5E0BEAA2E211D2F61438725479EB /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Chatto/Source/Utils.swift; sourceTree = "<group>"; };
+		6C43839DBEA55ACA532BF4BD39464A86 /* BaseChatViewController+Scrolling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BaseChatViewController+Scrolling.swift"; path = "Chatto/Source/ChatController/BaseChatViewController+Scrolling.swift"; sourceTree = "<group>"; };
+		6C786D892164E2BE5E86758ECAF1577C /* Pods-TryChatoo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TryChatoo-acknowledgements.plist"; sourceTree = "<group>"; };
+		6E939CE32DEAFD02496027CC0346C2B4 /* ChatItemCompanionCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatItemCompanionCollection.swift; path = Chatto/Source/ChatItemCompanionCollection.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B2590AF4C35467A7B1AF911E0254ABB /* ChatCollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatCollectionViewLayout.swift; path = Chatto/Source/ChatController/Collaborators/ChatCollectionViewLayout.swift; sourceTree = "<group>"; };
+		8134808FA0B230B6A3F7E28F7733D1E5 /* Pods-TryChatoo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TryChatoo-Info.plist"; sourceTree = "<group>"; };
+		850F184204863742E1A5BE0EB13C0815 /* Pods-TryChatoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TryChatoo.release.xcconfig"; sourceTree = "<group>"; };
+		85780F80CFAEF2A0D6BEC5E67AA21CD9 /* ChatItemProtocolDefinitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatItemProtocolDefinitions.swift; path = "Chatto/Source/Chat Items/ChatItemProtocolDefinitions.swift"; sourceTree = "<group>"; };
+		968E7E2C75DAA0523601B4635E3E1B16 /* InputPositionControlling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InputPositionControlling.swift; path = Chatto/Source/ChatController/InputPositionControlling.swift; sourceTree = "<group>"; };
+		9BD9FE518A3F9E3A7071B08ECECBE2F3 /* ChatItemCompanion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatItemCompanion.swift; path = "Chatto/Source/Chat Items/ChatItemCompanion.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AACC35C635CBBF0EB49A88A821FC315E /* BaseChatViewController+Presenters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BaseChatViewController+Presenters.swift"; path = "Chatto/Source/ChatController/BaseChatViewController+Presenters.swift"; sourceTree = "<group>"; };
+		AC38322B233CD14208A4E6554917CFFE /* Pods-TryChatoo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TryChatoo-frameworks.sh"; sourceTree = "<group>"; };
+		AF835330D97B62730D8D36E21EFD1AA2 /* Chatto-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Chatto-prefix.pch"; sourceTree = "<group>"; };
+		B9B9912652E8FFBDB3916CAC1421E61A /* ChatDataSourceProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatDataSourceProtocol.swift; path = Chatto/Source/ChatController/Collaborators/ChatDataSourceProtocol.swift; sourceTree = "<group>"; };
+		BE3893C08724F3D82CF1D199CF98F274 /* Chatto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Chatto.framework; path = Chatto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1E9B69257449F4799AF3BD7563ABC8 /* Pods-TryChatoo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TryChatoo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CDDF723FB20A38C161585B215ECD5659 /* BaseChatItemPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseChatItemPresenter.swift; path = "Chatto/Source/Chat Items/BaseChatItemPresenter.swift"; sourceTree = "<group>"; };
+		CF4437B7E979CC917D8E1BADAFEDF351 /* Pods-TryChatoo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TryChatoo-dummy.m"; sourceTree = "<group>"; };
+		CFF8370BEF5C6F54527234E1023B4F99 /* ChatLayoutConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatLayoutConfiguration.swift; path = Chatto/Source/ChatController/ChatLayoutConfiguration.swift; sourceTree = "<group>"; };
+		DB78290BE8ED31E5B4C5FC69EFFED1A9 /* Pods-TryChatoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TryChatoo.debug.xcconfig"; sourceTree = "<group>"; };
+		EC9A143F6754C50587DF355EF9AD0BA4 /* Pods-TryChatoo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TryChatoo-umbrella.h"; sourceTree = "<group>"; };
+		FA5299142682CE21986E7243386606FA /* Pods-TryChatoo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TryChatoo.modulemap"; sourceTree = "<group>"; };
+		FB6CDF3D0F2B3256DFF4A67524629B1A /* Chatto-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Chatto-umbrella.h"; sourceTree = "<group>"; };
+		FD62A03A611A4C9F5131816F26566D57 /* DummyChatItemPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DummyChatItemPresenter.swift; path = "Chatto/Source/Chat Items/DummyChatItemPresenter.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9987010FD3A08828CFD9676059ABA7BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60723E6A00910EE6EC957924AF536887 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8FEF070431CEDBE667A59A504FF67C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74D950EEE53FA9AA13367C1A1187631D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11DE1FE0C5B8CA4196A3DBA8E8F0404D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE3893C08724F3D82CF1D199CF98F274 /* Chatto.framework */,
+				448AE6CB55F18194BAD146C4C983CE1C /* Pods_TryChatoo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		452AF85222795D3A3999B63984801457 /* Chatto */ = {
+			isa = PBXGroup;
+			children = (
+				CDDF723FB20A38C161585B215ECD5659 /* BaseChatItemPresenter.swift */,
+				450046E95D1144F0D4E19321F5276A7F /* BaseChatViewController.swift */,
+				1C288608C81FF07DA0B45EEBB4F221B2 /* BaseChatViewController+CellPanGestureHandler.swift */,
+				2FA1AEE2723CB60CACE4A7BC088E98C5 /* BaseChatViewController+Changes.swift */,
+				AACC35C635CBBF0EB49A88A821FC315E /* BaseChatViewController+Presenters.swift */,
+				6C43839DBEA55ACA532BF4BD39464A86 /* BaseChatViewController+Scrolling.swift */,
+				4305ECD8E915E93D6CD44049CDC0C059 /* BaseChatViewControllerView.swift */,
+				29431FC6947A37095775276D911040D2 /* CellPanGestureHandler.swift */,
+				7B2590AF4C35467A7B1AF911E0254ABB /* ChatCollectionViewLayout.swift */,
+				B9B9912652E8FFBDB3916CAC1421E61A /* ChatDataSourceProtocol.swift */,
+				9BD9FE518A3F9E3A7071B08ECECBE2F3 /* ChatItemCompanion.swift */,
+				6E939CE32DEAFD02496027CC0346C2B4 /* ChatItemCompanionCollection.swift */,
+				3CC0F35C36435C384F59C11D55139C11 /* ChatItemPresenterFactory.swift */,
+				85780F80CFAEF2A0D6BEC5E67AA21CD9 /* ChatItemProtocolDefinitions.swift */,
+				CFF8370BEF5C6F54527234E1023B4F99 /* ChatLayoutConfiguration.swift */,
+				012CEA1C2FB7809B4C0A806D41AA8644 /* CollectionChanges.swift */,
+				FD62A03A611A4C9F5131816F26566D57 /* DummyChatItemPresenter.swift */,
+				968E7E2C75DAA0523601B4635E3E1B16 /* InputPositionControlling.swift */,
+				1F081D140D41FE56046C050394E53EEB /* KeyboardTracker.swift */,
+				1DF7D6404FDBED56AF0A98AAFA5D7B30 /* ReplyFeedbackGenerator.swift */,
+				6333B59B368D0AB28D41DB4DD40FE0CB /* SerialTaskQueue.swift */,
+				687F5E0BEAA2E211D2F61438725479EB /* Utils.swift */,
+				83876B8CD068355214AD2DF02A3295F7 /* Support Files */,
+			);
+			name = Chatto;
+			path = Chatto;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		83876B8CD068355214AD2DF02A3295F7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1994B191821C94F750C2471F09143232 /* Chatto.modulemap */,
+				0CB1D61570AA02E98102C59AF57E43D4 /* Chatto-dummy.m */,
+				3A777B568CE201F0309DB7ADC5E6862F /* Chatto-Info.plist */,
+				AF835330D97B62730D8D36E21EFD1AA2 /* Chatto-prefix.pch */,
+				FB6CDF3D0F2B3256DFF4A67524629B1A /* Chatto-umbrella.h */,
+				392343FEAFF1EAD36D2BCCC06C5415E0 /* Chatto.debug.xcconfig */,
+				05A733D997999C5EF314A2340EE5F16D /* Chatto.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Chatto";
+			sourceTree = "<group>";
+		};
+		A9AA8F40A750216ACF74CBB90E389139 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				452AF85222795D3A3999B63984801457 /* Chatto */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A9AA8F40A750216ACF74CBB90E389139 /* Pods */,
+				11DE1FE0C5B8CA4196A3DBA8E8F0404D /* Products */,
+				E214061A7B9C3A7E552FA3BF23538C98 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E214061A7B9C3A7E552FA3BF23538C98 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5775B63CFE354464C683B371CC84BE7 /* Pods-TryChatoo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F5775B63CFE354464C683B371CC84BE7 /* Pods-TryChatoo */ = {
+			isa = PBXGroup;
+			children = (
+				FA5299142682CE21986E7243386606FA /* Pods-TryChatoo.modulemap */,
+				CD1E9B69257449F4799AF3BD7563ABC8 /* Pods-TryChatoo-acknowledgements.markdown */,
+				6C786D892164E2BE5E86758ECAF1577C /* Pods-TryChatoo-acknowledgements.plist */,
+				CF4437B7E979CC917D8E1BADAFEDF351 /* Pods-TryChatoo-dummy.m */,
+				AC38322B233CD14208A4E6554917CFFE /* Pods-TryChatoo-frameworks.sh */,
+				8134808FA0B230B6A3F7E28F7733D1E5 /* Pods-TryChatoo-Info.plist */,
+				EC9A143F6754C50587DF355EF9AD0BA4 /* Pods-TryChatoo-umbrella.h */,
+				DB78290BE8ED31E5B4C5FC69EFFED1A9 /* Pods-TryChatoo.debug.xcconfig */,
+				850F184204863742E1A5BE0EB13C0815 /* Pods-TryChatoo.release.xcconfig */,
+			);
+			name = "Pods-TryChatoo";
+			path = "Target Support Files/Pods-TryChatoo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		997A58D00BB3B7BB9A30BAEEED404FFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C4EEEF686E5E839E4DEE2CEF25AC4F6 /* Chatto-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC373302374ACC67DCC2E645335C9EA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4772085BB6C13A035DDBFFEE2E41D363 /* Pods-TryChatoo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2508BC3B908322C9E85E61AE743C9842 /* Chatto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D30F6C2F1B6331D051DB525C9F02D28 /* Build configuration list for PBXNativeTarget "Chatto" */;
+			buildPhases = (
+				997A58D00BB3B7BB9A30BAEEED404FFE /* Headers */,
+				DFC83F3C2100AB41F973A5F57056BEA8 /* Sources */,
+				F8FEF070431CEDBE667A59A504FF67C2 /* Frameworks */,
+				E164B8D3C2484D9800CA8B506C98B4E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chatto;
+			productName = Chatto;
+			productReference = BE3893C08724F3D82CF1D199CF98F274 /* Chatto.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B0EE9316E5D81ED0FB4F5DAE325E47CE /* Pods-TryChatoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59E8E8DD3A896366A456599BED07F10F /* Build configuration list for PBXNativeTarget "Pods-TryChatoo" */;
+			buildPhases = (
+				AC373302374ACC67DCC2E645335C9EA6 /* Headers */,
+				BB3C32E792A60AA6B6D248912BF36245 /* Sources */,
+				9987010FD3A08828CFD9676059ABA7BE /* Frameworks */,
+				D10528C5E7329FE204471F0A39494FC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D3ED451C9DA8542465DD42047FCAF53 /* PBXTargetDependency */,
+			);
+			name = "Pods-TryChatoo";
+			productName = "Pods-TryChatoo";
+			productReference = 448AE6CB55F18194BAD146C4C983CE1C /* Pods_TryChatoo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 11DE1FE0C5B8CA4196A3DBA8E8F0404D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2508BC3B908322C9E85E61AE743C9842 /* Chatto */,
+				B0EE9316E5D81ED0FB4F5DAE325E47CE /* Pods-TryChatoo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D10528C5E7329FE204471F0A39494FC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E164B8D3C2484D9800CA8B506C98B4E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB3C32E792A60AA6B6D248912BF36245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0440C52E72F4E70DD8CE0D41C352B7D9 /* Pods-TryChatoo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFC83F3C2100AB41F973A5F57056BEA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD149BE808D0B1695434D2A36EE2AB87 /* BaseChatItemPresenter.swift in Sources */,
+				3DD2B57252BAE9393D0CF804BC34FB97 /* BaseChatViewController+CellPanGestureHandler.swift in Sources */,
+				B95ACECF52C73E62596B41F45975482C /* BaseChatViewController+Changes.swift in Sources */,
+				72A7863C25AB03EC4264DBAC5F0FC6B2 /* BaseChatViewController+Presenters.swift in Sources */,
+				E9F88121B350459AD409165F6B3E357B /* BaseChatViewController+Scrolling.swift in Sources */,
+				A1617419EEC4CB92C2013853F15055B3 /* BaseChatViewController.swift in Sources */,
+				8B6F837FDF77B33FAF6C039D6FC32891 /* BaseChatViewControllerView.swift in Sources */,
+				8E67F3BBCC89277203BBE92DA1E61A0B /* CellPanGestureHandler.swift in Sources */,
+				9ABE8F76193EC4DABA79AA741FE641B9 /* ChatCollectionViewLayout.swift in Sources */,
+				4560F662E47E58D9F14909EDC68BEF96 /* ChatDataSourceProtocol.swift in Sources */,
+				7DD4E34130C33F57467129F813F81FA1 /* ChatItemCompanion.swift in Sources */,
+				BD25AC761C97420DCC25FBBAB51781F0 /* ChatItemCompanionCollection.swift in Sources */,
+				9357CFE02A2CF6846684435184518303 /* ChatItemPresenterFactory.swift in Sources */,
+				BEF20F71F2D66F8C8FDCD032ED7CA1DD /* ChatItemProtocolDefinitions.swift in Sources */,
+				9D159A770782A06DDB246CB4B688D6F8 /* ChatLayoutConfiguration.swift in Sources */,
+				9556760F8AFE2ED82B6761A358D8CFC8 /* Chatto-dummy.m in Sources */,
+				E22CF6DBB4D1CD4F368937D1D3495BEE /* CollectionChanges.swift in Sources */,
+				C8C501C833DBD5CBF1F7998EDB9DE670 /* DummyChatItemPresenter.swift in Sources */,
+				286BD820295679BB8721B37A03971FD3 /* InputPositionControlling.swift in Sources */,
+				E07337DA357D0F235D0F09E2C08E2547 /* KeyboardTracker.swift in Sources */,
+				F15C040D3F5068322647619227371747 /* ReplyFeedbackGenerator.swift in Sources */,
+				5498F2CC49363B62E55A02A248389CA2 /* SerialTaskQueue.swift in Sources */,
+				1CA633DB46E1623F216F2B30C779AB70 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D3ED451C9DA8542465DD42047FCAF53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Chatto;
+			target = 2508BC3B908322C9E85E61AE743C9842 /* Chatto */;
+			targetProxy = 1D0FBA9EBA70B2E3B41EE5FB31E49238 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4D6C3581B387C63D7227DBE230B9676C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05A733D997999C5EF314A2340EE5F16D /* Chatto.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Chatto/Chatto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Chatto/Chatto-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Chatto/Chatto.modulemap";
+				PRODUCT_MODULE_NAME = Chatto;
+				PRODUCT_NAME = Chatto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		593F10BFFA94DAC7D6E17FB8A7F32D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7B959B69A43E8F5A089E02AA8C1B2C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 392343FEAFF1EAD36D2BCCC06C5415E0 /* Chatto.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Chatto/Chatto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Chatto/Chatto-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Chatto/Chatto.modulemap";
+				PRODUCT_MODULE_NAME = Chatto;
+				PRODUCT_NAME = Chatto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E0354393A5807955422866EB485BF30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB78290BE8ED31E5B4C5FC69EFFED1A9 /* Pods-TryChatoo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TryChatoo/Pods-TryChatoo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TryChatoo/Pods-TryChatoo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		853D9A6521A9CBBA5DFC697EF4AE7B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 850F184204863742E1A5BE0EB13C0815 /* Pods-TryChatoo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TryChatoo/Pods-TryChatoo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TryChatoo/Pods-TryChatoo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0374B8CF9A7D6A45F6D116D698D1C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0374B8CF9A7D6A45F6D116D698D1C19 /* Debug */,
+				593F10BFFA94DAC7D6E17FB8A7F32D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59E8E8DD3A896366A456599BED07F10F /* Build configuration list for PBXNativeTarget "Pods-TryChatoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E0354393A5807955422866EB485BF30 /* Debug */,
+				853D9A6521A9CBBA5DFC697EF4AE7B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D30F6C2F1B6331D051DB525C9F02D28 /* Build configuration list for PBXNativeTarget "Chatto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B959B69A43E8F5A089E02AA8C1B2C0F /* Debug */,
+				4D6C3581B387C63D7227DBE230B9676C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - Chatto (4.0.0)
+
+DEPENDENCIES:
+  - Chatto (= 4.0.0)
+
+SPEC REPOS:
+  trunk:
+    - Chatto
+
+SPEC CHECKSUMS:
+  Chatto: 970c3546b01acdca60a7ba6de13cc73f62341fa7
+
+PODFILE CHECKSUM: d5955d474e4c2f7694b24ee14a4c4de2700faed5
+
+COCOAPODS: 1.10.0

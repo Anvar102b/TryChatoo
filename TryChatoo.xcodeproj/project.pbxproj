@@ -3,27 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F218DCC4454D10155EAC72F /* Pods_TryChatoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02AC50FAB01CCB893335006C /* Pods_TryChatoo.framework */; };
 		63BBE3D92567F0D800D241F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BBE3D82567F0D800D241F4 /* AppDelegate.swift */; };
-		63BBE3DB2567F0D800D241F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BBE3DA2567F0D800D241F4 /* SceneDelegate.swift */; };
-		63BBE3DD2567F0D800D241F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BBE3DC2567F0D800D241F4 /* ViewController.swift */; };
-		63BBE3E02567F0D800D241F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63BBE3DE2567F0D800D241F4 /* Main.storyboard */; };
 		63BBE3E22567F0DA00D241F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63BBE3E12567F0DA00D241F4 /* Assets.xcassets */; };
 		63BBE3E52567F0DA00D241F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63BBE3E32567F0DA00D241F4 /* LaunchScreen.storyboard */; };
+		63BBE40E256BB18D00D241F4 /* TryChatooAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BBE3FE256BB18D00D241F4 /* TryChatooAssembly.swift */; };
+		63BBE40F256BB18D00D241F4 /* TryChatooInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BBE400256BB18D00D241F4 /* TryChatooInteractorOutput.swift */; };
+		63BBE410256BB18D00D241F4 /* TryChatooPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BBE401256BB18D00D241F4 /* TryChatooPresenter.swift */; };
+		63BBE411256BB18D00D241F4 /* TryChatooViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BBE402256BB18D00D241F4 /* TryChatooViewOutput.swift */; };
+		63BBE412256BB18D00D241F4 /* TryChatooTextManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BBE404256BB18D00D241F4 /* TryChatooTextManagerProtocol.swift */; };
+		63BBE413256BB18D00D241F4 /* TryChatooTextManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BBE405256BB18D00D241F4 /* TryChatooTextManager.swift */; };
+		63BBE414256BB18D00D241F4 /* TryChatooViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BBE407256BB18D00D241F4 /* TryChatooViewController.swift */; };
+		63BBE415256BB18D00D241F4 /* TryChatooViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BBE408256BB18D00D241F4 /* TryChatooViewInput.swift */; };
+		63BBE416256BB18D00D241F4 /* TryChatooInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BBE40A256BB18D00D241F4 /* TryChatooInteractor.swift */; };
+		63BBE417256BB18D00D241F4 /* TryChatooInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BBE40B256BB18D00D241F4 /* TryChatooInteractorInput.swift */; };
+		63BBE418256BB18D00D241F4 /* TryChatooRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BBE40D256BB18D00D241F4 /* TryChatooRouter.swift */; };
+		63BBE41E256BC3E500D241F4 /* TextMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BBE41D256BC3E500D241F4 /* TextMessageModel.swift */; };
+		63BBE422256BC4C600D241F4 /* TestChatItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BBE421256BC4C600D241F4 /* TestChatItemType.swift */; };
+		63BBE425256BC54B00D241F4 /* TextMessagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BBE424256BC54B00D241F4 /* TextMessagePresenter.swift */; };
+		63BBE42F256BC72700D241F4 /* TextMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BBE42E256BC72700D241F4 /* TextMessageCell.swift */; };
+		63BBE432256BCAD500D241F4 /* TextMessagePresenterBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BBE431256BCAD500D241F4 /* TextMessagePresenterBuilder.swift */; };
+		63BBE438256BD42C00D241F4 /* ChatDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BBE437256BD42C00D241F4 /* ChatDataSource.swift */; };
+		63BBE43F256BD6C000D241F4 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BBE43E256BD6C000D241F4 /* MessageService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02AC50FAB01CCB893335006C /* Pods_TryChatoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TryChatoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63BBE3D52567F0D800D241F4 /* TryChatoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryChatoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63BBE3D82567F0D800D241F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63BBE3DA2567F0D800D241F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		63BBE3DC2567F0D800D241F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		63BBE3DF2567F0D800D241F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63BBE3E12567F0DA00D241F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63BBE3E42567F0DA00D241F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63BBE3E62567F0DA00D241F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63BBE3FE256BB18D00D241F4 /* TryChatooAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TryChatooAssembly.swift; sourceTree = "<group>"; };
+		63BBE400256BB18D00D241F4 /* TryChatooInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TryChatooInteractorOutput.swift; sourceTree = "<group>"; };
+		63BBE401256BB18D00D241F4 /* TryChatooPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TryChatooPresenter.swift; sourceTree = "<group>"; };
+		63BBE402256BB18D00D241F4 /* TryChatooViewOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TryChatooViewOutput.swift; sourceTree = "<group>"; };
+		63BBE404256BB18D00D241F4 /* TryChatooTextManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TryChatooTextManagerProtocol.swift; sourceTree = "<group>"; };
+		63BBE405256BB18D00D241F4 /* TryChatooTextManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TryChatooTextManager.swift; sourceTree = "<group>"; };
+		63BBE407256BB18D00D241F4 /* TryChatooViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TryChatooViewController.swift; sourceTree = "<group>"; };
+		63BBE408256BB18D00D241F4 /* TryChatooViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TryChatooViewInput.swift; sourceTree = "<group>"; };
+		63BBE40A256BB18D00D241F4 /* TryChatooInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TryChatooInteractor.swift; sourceTree = "<group>"; };
+		63BBE40B256BB18D00D241F4 /* TryChatooInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TryChatooInteractorInput.swift; sourceTree = "<group>"; };
+		63BBE40D256BB18D00D241F4 /* TryChatooRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TryChatooRouter.swift; sourceTree = "<group>"; };
+		63BBE41D256BC3E500D241F4 /* TextMessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextMessageModel.swift; sourceTree = "<group>"; };
+		63BBE421256BC4C600D241F4 /* TestChatItemType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestChatItemType.swift; sourceTree = "<group>"; };
+		63BBE424256BC54B00D241F4 /* TextMessagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextMessagePresenter.swift; sourceTree = "<group>"; };
+		63BBE42E256BC72700D241F4 /* TextMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextMessageCell.swift; sourceTree = "<group>"; };
+		63BBE431256BCAD500D241F4 /* TextMessagePresenterBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextMessagePresenterBuilder.swift; sourceTree = "<group>"; };
+		63BBE437256BD42C00D241F4 /* ChatDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDataSource.swift; sourceTree = "<group>"; };
+		63BBE43E256BD6C000D241F4 /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
+		967049E230E9010191607C95 /* Pods-TryChatoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryChatoo.debug.xcconfig"; path = "Target Support Files/Pods-TryChatoo/Pods-TryChatoo.debug.xcconfig"; sourceTree = "<group>"; };
+		ACE123D3F3E4F7BF78C23B80 /* Pods-TryChatoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TryChatoo.release.xcconfig"; path = "Target Support Files/Pods-TryChatoo/Pods-TryChatoo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F218DCC4454D10155EAC72F /* Pods_TryChatoo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +77,8 @@
 			children = (
 				63BBE3D72567F0D800D241F4 /* TryChatoo */,
 				63BBE3D62567F0D800D241F4 /* Products */,
+				F826A0BE625F529A11B320BF /* Pods */,
+				B95C338167C9EE879FD3CF95 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +93,135 @@
 		63BBE3D72567F0D800D241F4 /* TryChatoo */ = {
 			isa = PBXGroup;
 			children = (
+				63BBE43D256BD6AE00D241F4 /* Services */,
+				63BBE3FC256BB18D00D241F4 /* ChatooTest */,
 				63BBE3D82567F0D800D241F4 /* AppDelegate.swift */,
-				63BBE3DA2567F0D800D241F4 /* SceneDelegate.swift */,
-				63BBE3DC2567F0D800D241F4 /* ViewController.swift */,
-				63BBE3DE2567F0D800D241F4 /* Main.storyboard */,
 				63BBE3E12567F0DA00D241F4 /* Assets.xcassets */,
 				63BBE3E32567F0DA00D241F4 /* LaunchScreen.storyboard */,
 				63BBE3E62567F0DA00D241F4 /* Info.plist */,
 			);
 			path = TryChatoo;
+			sourceTree = "<group>";
+		};
+		63BBE3FC256BB18D00D241F4 /* ChatooTest */ = {
+			isa = PBXGroup;
+			children = (
+				63BBE41B256BC36600D241F4 /* ChatooEnteties */,
+				63BBE3FD256BB18D00D241F4 /* Assembly */,
+				63BBE3FF256BB18D00D241F4 /* Presenter */,
+				63BBE403256BB18D00D241F4 /* TextManager */,
+				63BBE406256BB18D00D241F4 /* View */,
+				63BBE409256BB18D00D241F4 /* Interactor */,
+				63BBE40C256BB18D00D241F4 /* Router */,
+			);
+			path = ChatooTest;
+			sourceTree = "<group>";
+		};
+		63BBE3FD256BB18D00D241F4 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				63BBE3FE256BB18D00D241F4 /* TryChatooAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		63BBE3FF256BB18D00D241F4 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				63BBE400256BB18D00D241F4 /* TryChatooInteractorOutput.swift */,
+				63BBE401256BB18D00D241F4 /* TryChatooPresenter.swift */,
+				63BBE402256BB18D00D241F4 /* TryChatooViewOutput.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		63BBE403256BB18D00D241F4 /* TextManager */ = {
+			isa = PBXGroup;
+			children = (
+				63BBE404256BB18D00D241F4 /* TryChatooTextManagerProtocol.swift */,
+				63BBE405256BB18D00D241F4 /* TryChatooTextManager.swift */,
+			);
+			path = TextManager;
+			sourceTree = "<group>";
+		};
+		63BBE406256BB18D00D241F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63BBE428256BC67700D241F4 /* Cells */,
+				63BBE407256BB18D00D241F4 /* TryChatooViewController.swift */,
+				63BBE408256BB18D00D241F4 /* TryChatooViewInput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		63BBE409256BB18D00D241F4 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				63BBE40A256BB18D00D241F4 /* TryChatooInteractor.swift */,
+				63BBE40B256BB18D00D241F4 /* TryChatooInteractorInput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		63BBE40C256BB18D00D241F4 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				63BBE40D256BB18D00D241F4 /* TryChatooRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		63BBE41B256BC36600D241F4 /* ChatooEnteties */ = {
+			isa = PBXGroup;
+			children = (
+				63BBE421256BC4C600D241F4 /* TestChatItemType.swift */,
+				63BBE41C256BC36E00D241F4 /* TextMessage */,
+				63BBE437256BD42C00D241F4 /* ChatDataSource.swift */,
+			);
+			path = ChatooEnteties;
+			sourceTree = "<group>";
+		};
+		63BBE41C256BC36E00D241F4 /* TextMessage */ = {
+			isa = PBXGroup;
+			children = (
+				63BBE41D256BC3E500D241F4 /* TextMessageModel.swift */,
+				63BBE424256BC54B00D241F4 /* TextMessagePresenter.swift */,
+				63BBE431256BCAD500D241F4 /* TextMessagePresenterBuilder.swift */,
+			);
+			path = TextMessage;
+			sourceTree = "<group>";
+		};
+		63BBE428256BC67700D241F4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				63BBE42E256BC72700D241F4 /* TextMessageCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		63BBE43D256BD6AE00D241F4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				63BBE43E256BD6C000D241F4 /* MessageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B95C338167C9EE879FD3CF95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02AC50FAB01CCB893335006C /* Pods_TryChatoo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F826A0BE625F529A11B320BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				967049E230E9010191607C95 /* Pods-TryChatoo.debug.xcconfig */,
+				ACE123D3F3E4F7BF78C23B80 /* Pods-TryChatoo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63BBE3E92567F0DA00D241F4 /* Build configuration list for PBXNativeTarget "TryChatoo" */;
 			buildPhases = (
+				B3A725BE95BA64056A310B76 /* [CP] Check Pods Manifest.lock */,
 				63BBE3D12567F0D800D241F4 /* Sources */,
 				63BBE3D22567F0D800D241F4 /* Frameworks */,
 				63BBE3D32567F0D800D241F4 /* Resources */,
+				7B84ECF7C32249DAD6A10CFA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,34 +285,83 @@
 			files = (
 				63BBE3E52567F0DA00D241F4 /* LaunchScreen.storyboard in Resources */,
 				63BBE3E22567F0DA00D241F4 /* Assets.xcassets in Resources */,
-				63BBE3E02567F0D800D241F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B84ECF7C32249DAD6A10CFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TryChatoo/Pods-TryChatoo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TryChatoo/Pods-TryChatoo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TryChatoo/Pods-TryChatoo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3A725BE95BA64056A310B76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TryChatoo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		63BBE3D12567F0D800D241F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63BBE3DD2567F0D800D241F4 /* ViewController.swift in Sources */,
+				63BBE422256BC4C600D241F4 /* TestChatItemType.swift in Sources */,
+				63BBE432256BCAD500D241F4 /* TextMessagePresenterBuilder.swift in Sources */,
 				63BBE3D92567F0D800D241F4 /* AppDelegate.swift in Sources */,
-				63BBE3DB2567F0D800D241F4 /* SceneDelegate.swift in Sources */,
+				63BBE414256BB18D00D241F4 /* TryChatooViewController.swift in Sources */,
+				63BBE438256BD42C00D241F4 /* ChatDataSource.swift in Sources */,
+				63BBE43F256BD6C000D241F4 /* MessageService.swift in Sources */,
+				63BBE418256BB18D00D241F4 /* TryChatooRouter.swift in Sources */,
+				63BBE410256BB18D00D241F4 /* TryChatooPresenter.swift in Sources */,
+				63BBE413256BB18D00D241F4 /* TryChatooTextManager.swift in Sources */,
+				63BBE40E256BB18D00D241F4 /* TryChatooAssembly.swift in Sources */,
+				63BBE425256BC54B00D241F4 /* TextMessagePresenter.swift in Sources */,
+				63BBE412256BB18D00D241F4 /* TryChatooTextManagerProtocol.swift in Sources */,
+				63BBE42F256BC72700D241F4 /* TextMessageCell.swift in Sources */,
+				63BBE416256BB18D00D241F4 /* TryChatooInteractor.swift in Sources */,
+				63BBE415256BB18D00D241F4 /* TryChatooViewInput.swift in Sources */,
+				63BBE41E256BC3E500D241F4 /* TextMessageModel.swift in Sources */,
+				63BBE417256BB18D00D241F4 /* TryChatooInteractorInput.swift in Sources */,
+				63BBE40F256BB18D00D241F4 /* TryChatooInteractorOutput.swift in Sources */,
+				63BBE411256BB18D00D241F4 /* TryChatooViewOutput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		63BBE3DE2567F0D800D241F4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				63BBE3DF2567F0D800D241F4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		63BBE3E32567F0DA00D241F4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,12 +491,14 @@
 		};
 		63BBE3EA2567F0DA00D241F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 967049E230E9010191607C95 /* Pods-TryChatoo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GMU2AR93X5;
 				INFOPLIST_FILE = TryChatoo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +512,14 @@
 		};
 		63BBE3EB2567F0DA00D241F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACE123D3F3E4F7BF78C23B80 /* Pods-TryChatoo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GMU2AR93X5;
 				INFOPLIST_FILE = TryChatoo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
